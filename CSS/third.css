@@ -1,0 +1,193 @@
+.container_3 {
+    height: 500px;
+    /* background-color: darkslategrey; */
+    display: flex;
+    justify-content: flex-start;
+    /*center*/
+    align-items: center;
+    background-image: url("https://www.tourmyindia.com/states/ladakh/ladakh-images/banner-2.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0;
+}
+
+.innercon_3 {
+    width: 700px;
+    height: 350px;
+    /* background-color: rgba(0, 255, 128, 0.648); */
+    /* background-color: rgba(140, 118, 87, 0.471);   brown */
+    background-color: rgba(2, 26, 71, 0.385);
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    /* border-radius: 45px; */
+    border-bottom-left-radius: 45px;
+    border-top-right-radius: 45px;
+    /* border: 5px double whitesmoke; */
+}
+
+.innercon_3 h2 {
+    /* text-shadow: 2px gray; .... i ll do */
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.innercon_3 p {
+    margin: 12px 0;
+    font-size: 18px;
+}
+
+.conhead {
+    font-size: 25px;
+    font-weight: bold;
+    /* color:black; */
+}
+
+.inex {
+    margin: 10px 0;
+}
+
+.inex span {
+    font-size: 22px;
+    padding: 0 25px;
+    /* margin: 12px 0; */
+    border-right: 3px solid rgb(65, 64, 64);
+}
+
+.container_4 {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+}
+
+
+.leftcontainer {
+    width: 60%;
+    height: auto;
+    /* background-color: #4CAF50; */
+}
+
+
+.rightcontainer {
+    height: auto;
+    /* background-color: rebeccapurple; */
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.rightcontainer form {
+    width: 90%;
+}
+
+fieldset {
+    padding: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.aboutcon {
+    width: 100%;
+}
+
+.itinery {
+    height: auto;
+    width: 100%;
+    border: 1px solid black;
+    padding: 30px 50px;
+    margin: 20px 0;
+}
+
+
+.itinery h2 {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.itinery .outerdiv {
+    height: auto;
+    /* background-color: black; */
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+
+.innerleft {
+    /* background-color: aqua; */
+    height: auto;
+    width: 15%;
+}
+
+.innerright {
+    height: auto;
+    /* background-color: aquamarine; */
+    width: 85%;
+}
+
+.innerleft span {
+    width: 100%;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 15px;
+    /* margin-bottom: 8px; */
+    display: block;
+}
+
+.innerleft .line {
+    display: inline-block;
+    height: 89%;
+    width: 80%;
+    border-right: 3px solid rgb(1, 1, 1);
+}
+
+.innerleft span .dot {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(89, 170, 89);
+    border-radius: 50px;
+}
+
+.innerright h1{
+    margin: 20px 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.innerright p{
+    padding: 0 30px;
+    padding-bottom: 20px;
+}
